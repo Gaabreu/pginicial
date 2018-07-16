@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: rgba(255, 255, 0, 0.493);
+    height: 8vh;
+    width: 100%;
+}
+
+.pesquisa{
+    display: none;
+    }
+#hamburger{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.barra{
+    width: 90%;
+    height: 10px;
+    background-color:  red;
+    border-radius: 15%;
+}
+#banner{
+    background-image: url('gemeos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner span{
+    color: rgb(255, 255, 0);
+}
+
+h1{
+   font-family: Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 50px;
+   margin-bottom: 20px;
+   letter-spacing: 3px;
+   color: white;
+}
+
+h2{
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    
+}
+
+#caixa2{
+    height: 400px;
+    background-color: brown;
+    display: inline-flex;
+    flex-flow: column wrap;
+
+}
+.bio{
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+}
+#caixa2 button{
+    
+    background-color: whitesmoke;
+    height: 50px;
+    width: 80px;
+    border-radius: 20%;
+    text-decoration: none;       
+    border:none;
+    align-content: center;
+    margin-left: 43%; margin-top: 2vh;
+    display: inline-flex;
+
+    
+
+}
+#caixa2 button:hover{
+    background-color: rgba(245, 242, 62, 0.719);;
+    height: 50px;
+    width: 80px;
+    border-radius: 20%;
+}
+
+#notificar{
+    height: 400px;
+    background-color: brown;
+   
+}
+
+#notificar h2{
+    text-align: center;
+}
+
+#notificar div{
+   margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (min-width: 517px) {
+    h2{
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}  
+.pesquisa{
+    width: 20%;
+    height: 30px;
+    background-color: white;
+    border-radius: 20%;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 8vh;
+    width: 100%;
+    min-height: 20px ;
+    background-color: yellow;
+    position: fixed;
+    top: 0;
+}
+header nav{
+    width: 80vw;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+}
